@@ -30,6 +30,12 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+会話履歴を保って続けて質問するには `--chat` を付けます。空の質問を入力すると終了します。
+
+```bash
+uv run python -m app.ask --chat
+```
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
